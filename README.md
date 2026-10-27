@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Beginner Portfolio Website
 
 This version is made for learning basic HTML, CSS, and JavaScript. It uses no framework, package manager, or build command.
@@ -49,3 +50,7 @@ Create a free form at https://formspree.io and replace `YOUR_FORM_ID` in `contac
 5. Read `script.js` and change one filter category.
 
 The comments in `style.css`, `script.js`, and the HTML pages show where each part begins.
+=======
+# Portfolio
+A beginner-friendly, mobile-responsive developer portfolio built with vanilla HTML, CSS, and JavaScript. Includes About, Projects, case studies, project filtering, and a contact page.
+>>>>>>> 350224e8a4c15fe7398249dfca0dc7c9a6a3561e
