@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple personal portfolio for a frontend developer.">
+  <title>Noel Casas | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">Your<span>Name</span></a>
+
+      <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero container">
+      <div class="hero-content">
+        <p class="small-title">Frontend Developer</p>
+        <h1>I build websites that are <span>simple and useful.</span></h1>
+        <p class="hero-text">
+          Hi, I'm Noel Casas. I create responsive websites using HTML, CSS,
+          and JavaScript.
+        </p>
+        <div class="button-group">
+          <a class="button primary" href="projects.html">View my projects</a>
+          <a class="button" href="contact.html">Contact me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Short about section -->
+    <section class="section">
+      <div class="container two-columns">
+        <div class="photo-placeholder">Add your photo here</div>
+
+        <div>
+          <p class="small-title">About me</p>
+          <h2>I enjoy learning how design and code work together.</h2>
+          <p class="muted">
+            I am a beginner frontend developer who enjoys turning ideas into
+            clean and responsive web pages. I focus on writing code that is
+            easy to understand and improve.
+          </p>
+
+          <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+          </ul>
+
+          <a class="button" href="about.html">Read more about me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured projects -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="small-title">Featured work</p>
+          <h2>Projects I have completed.</h2>
+          <p class="muted">Click a project to read its full case study.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <a href="project-dashboard.html">
+              <div class="project-image green">01</div>
+              <div class="project-content">
+                <p class="project-type">Web App</p>
+                <h3>Simple Dashboard</h3>
+                <p>A responsive dashboard for viewing basic business data.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <a href="project-studio.html">
+              <div class="project-image purple">02</div>
+              <div class="project-content">
+                <p class="project-type">Website</p>
+                <h3>Creative Studio</h3>
+                <p>A clean marketing website for a small creative team.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <a href="project-planner.html">
+              <div class="project-image orange">03</div>
+              <div class="project-content">
+                <p class="project-type">JavaScript</p>
+                <h3>Daily Planner</h3>
+                <p>A small planner that helps users organize daily tasks.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact call to action -->
+    <section class="section">
+      <div class="container section-heading">
+        <p class="small-title">Let's work together</p>
+        <h2>Have an idea for a website?</h2>
+        <p class="muted">Send me a message and tell me what you want to build.</p>
+        <a class="button primary" href="contact.html">Start a conversation</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span class="current-year"></span> Noel Casas </p>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

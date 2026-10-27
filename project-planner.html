@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Planner | Your Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">Your<span>Name</span></a>
+      <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="breadcrumbs container">
+      <a href="index.html">Home</a> / <a href="projects.html">Projects</a> / Daily Planner
+    </div>
+
+    <section class="page-hero container">
+      <p class="small-title">JavaScript Case Study</p>
+      <h1>Daily Planner</h1>
+      <p>A small web app that lets users add, complete, and remove daily tasks.</p>
+    </section>
+
+    <section class="container">
+      <div class="project-cover project-image orange">Planner</div>
+      <div class="project-facts">
+        <div><strong>My role</strong><span class="muted">Frontend development</span></div>
+        <div><strong>Time</strong><span class="muted">One week</span></div>
+        <div><strong>Tools</strong><span class="muted">HTML, CSS, JavaScript</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container case-section">
+        <p class="small-title">The problem</p>
+        <h2>Users needed a quick way to track simple tasks.</h2>
+        <p class="muted">The project focused on the basic actions needed in a daily to-do list.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container case-section">
+        <p class="small-title">What I built</p>
+        <h2>A small interactive task list.</h2>
+        <ul>
+          <li>Added tasks from an input field.</li>
+          <li>Marked tasks as completed.</li>
+          <li>Removed tasks when they were no longer needed.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container case-section">
+        <p class="small-title">What I learned</p>
+        <h2>JavaScript can change a page after it loads.</h2>
+        <p class="muted">This project helped me understand events, variables, functions, and changing HTML elements.</p>
+        <a class="button primary" href="projects.html">Back to projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-content"><p>© <span class="current-year"></span> Your Name</p><div class="footer-links"><a href="#">GitHub</a><a href="#">LinkedIn</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

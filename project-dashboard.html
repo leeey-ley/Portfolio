@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Dashboard | Your Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">Your<span>Name</span></a>
+      <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="breadcrumbs container">
+      <a href="index.html">Home</a> / <a href="projects.html">Projects</a> / Simple Dashboard
+    </div>
+
+    <section class="page-hero container">
+      <p class="small-title">Web App Case Study</p>
+      <h1>Simple Dashboard</h1>
+      <p>A beginner project that displays important business information in a clear layout.</p>
+    </section>
+
+    <section class="container">
+      <div class="project-cover project-image green">Dashboard</div>
+      <div class="project-facts">
+        <div><strong>My role</strong><span class="muted">Design and frontend</span></div>
+        <div><strong>Time</strong><span class="muted">Three weeks</span></div>
+        <div><strong>Tools</strong><span class="muted">HTML, CSS, JavaScript</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container case-section">
+        <p class="small-title">The problem</p>
+        <h2>Important information was difficult to scan.</h2>
+        <p class="muted">The goal was to organize sales, customers, and recent activity on one responsive page.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container case-section">
+        <p class="small-title">What I built</p>
+        <h2>A simple card-based layout.</h2>
+        <ul>
+          <li>Used CSS Grid to arrange dashboard cards.</li>
+          <li>Added a mobile layout with media queries.</li>
+          <li>Used JavaScript for a basic menu and filters.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container case-section">
+        <p class="small-title">What I learned</p>
+        <h2>Good spacing makes data easier to understand.</h2>
+        <p class="muted">This project helped me practice layout, reusable CSS classes, and responsive design.</p>
+        <a class="button primary" href="projects.html">Back to projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-content"><p>© <span class="current-year"></span> Your Name</p><div class="footer-links"><a href="#">GitHub</a><a href="#">LinkedIn</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

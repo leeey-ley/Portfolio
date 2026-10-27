@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects created by Your Name.">
+  <title>Projects | Your Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">Your<span>Name</span></a>
+      <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="breadcrumbs container"><a href="index.html">Home</a> / Projects</div>
+
+    <section class="page-hero container">
+      <p class="small-title">My projects</p>
+      <h1>Things I have designed and built.</h1>
+      <p>Use the buttons below to filter projects by category.</p>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <!-- The data-filter values are used by script.js -->
+        <div class="filters">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="web-app">Web Apps</button>
+          <button class="filter-button" data-filter="website">Websites</button>
+          <button class="filter-button" data-filter="javascript">JavaScript</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="web-app">
+            <a href="project-dashboard.html">
+              <div class="project-image green">01</div>
+              <div class="project-content">
+                <p class="project-type">Web App</p>
+                <h3>Simple Dashboard</h3>
+                <p>A responsive dashboard for viewing business data.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card" data-category="website">
+            <a href="project-studio.html">
+              <div class="project-image purple">02</div>
+              <div class="project-content">
+                <p class="project-type">Website</p>
+                <h3>Creative Studio</h3>
+                <p>A marketing website for a small creative team.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card" data-category="javascript">
+            <a href="project-planner.html">
+              <div class="project-image orange">03</div>
+              <div class="project-content">
+                <p class="project-type">JavaScript</p>
+                <h3>Daily Planner</h3>
+                <p>A small planner for organizing daily tasks.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span class="current-year"></span> Your Name</p>
+      <div class="footer-links"><a href="#">GitHub</a><a href="#">LinkedIn</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
