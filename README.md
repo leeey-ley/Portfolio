@@ -1,56 +1,49 @@
-<<<<<<< HEAD
-# Beginner Portfolio Website
+# Hi there, I'm Noel Casas 👋
 
-This version is made for learning basic HTML, CSS, and JavaScript. It uses no framework, package manager, or build command.
+> **Fresh IT Graduate | Aspiring Web Developer**
 
-## How to run it in VS Code
+Welcome to my portfolio repository! I am a passionate Information Technology graduate focused on building clean, interactive, and responsive web applications. I am continuously improving my skills and currently exploring how to leverage AI tools like OpenAI Codex to enhance my development workflow.
 
-1. Open this folder in VS Code.
-2. Open `index.html`.
-3. Double-click the file to open it in a browser, or use the VS Code Live Server extension.
+---
 
-## File guide
+## 🚀 About Me
 
-- `index.html` — home page with a hero, short About section, projects, and contact link
-- `about.html` — your longer story, values, and experience
-- `projects.html` — all project cards and JavaScript category filters
-- `contact.html` — contact details and a Formspree form
-- `project-dashboard.html`, `project-studio.html`, `project-planner.html` — individual project case studies
-- `style.css` — all colors, layouts, cards, forms, and mobile styles
-- `script.js` — mobile menu, project filters, and current footer year
+- 🎓 **Education:** Information Technology Graduate
+- 💻 **Focus:** Web Development (Front-End & Back-End Fundamentals)
+- 🧠 **Currently Learning:** Advanced JavaScript, Java backend concepts, and AI coding assistants (Codex)
+- 🎯 **Goal:** Building and showcasing my previous mini-projects to secure my first role as a Web Developer
 
-## First edits to make
+---
 
-Search all files for these placeholders and replace them:
+## 🛠️ Tech Stack & Tools
 
-- `Your Name`
-- `YourName`
-- `Your City`
-- `hello@example.com`
-- `#` in the GitHub and LinkedIn links
+### Languages & Core Web Technologies
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-Replace the photo placeholder in `index.html` and `about.html` with:
+### Developer Tools & AI Assistants
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Codex](https://img.shields.io/badge/OpenAI_Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-```html
-<img src="your-photo.jpg" alt="Your Name">
-```
+---
 
-Put `your-photo.jpg` in the same folder as the HTML files.
+## 📁 Projects Included in This Portfolio
 
-## Contact form
+Here are some of the mini-projects and applications I’ve built during my studies and self-learning journey:
 
-Create a free form at https://formspree.io and replace `YOUR_FORM_ID` in `contact.html` with your real Formspree ID.
+- **[Project 1 Name]** - *Brief 1-sentence description of project* `(HTML, CSS, JS)`
+- **[Project 2 Name]** - *Brief 1-sentence description of project* `(Java, HTML/CSS)`
+- **[Project 3 Name]** - *Brief 1-sentence description of project* `(JavaScript)`
 
-## Good learning order
+*(Update the section above with your actual project titles as you upload them!)*
 
-1. Change the text in the HTML pages.
-2. Change the colors at the top of `style.css`.
-3. Change spacing and card styles in `style.css`.
-4. Add a new project card to `projects.html`.
-5. Read `script.js` and change one filter category.
+---
 
-The comments in `style.css`, `script.js`, and the HTML pages show where each part begins.
-=======
-# Portfolio
-A beginner-friendly, mobile-responsive developer portfolio built with vanilla HTML, CSS, and JavaScript. Includes About, Projects, case studies, project filtering, and a contact page.
->>>>>>> 350224e8a4c15fe7398249dfca0dc7c9a6a3561e
+## 📬 Connect with Me
+
+- **GitHub:** [@leeey-ley](https://github.com/leeey-ley)
+- **Email:** *[leeey1903@gmail.com]*
+- **LinkedIn:** *[Add your LinkedIn URL here]*
